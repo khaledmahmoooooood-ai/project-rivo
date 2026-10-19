@@ -1,0 +1,210 @@
+header{
+    background-color:#C2EFD4;
+    width: 100%;
+    height: 580px;
+}
+
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 360px;
+    margin-right: 350px; 
+    position: relative;
+    top: 20px;
+    
+}
+li{
+    list-style:none;
+    text-decoration-line: none;
+    
+}
+button{
+    position: relative;
+   left: 1190px;
+   bottom: 20px;
+   width: 60px;
+   height: 30px;
+   background-color:#C2EFD4;
+}
+.icon{
+    position: relative;
+    left:1070px ;
+    bottom:11px ;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+.rivo{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    font-weight: 900px;
+}
+.home{
+    display: flex;
+}
+.home img{
+    position: relative;
+    right: 70px;
+    top: 45px;
+}
+.home h1{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size:xx-large;
+   font-weight: 900;
+   position: relative;
+   left: 100px;
+   color: #224F34;
+   
+}
+.home p{
+    position: relative;
+    top: 160px;
+    right: 120px;
+    margin-right: 450px;
+    color: #267D49;
+    font-weight: 500;
+}
+.home button{
+   
+    position: relative;
+    left: -823px;
+    top: 300px;
+    width: 120px;
+    color: white;
+    background-color: #224F34;
+    padding: 11px;
+    font-size: xx-small;
+    border-color:#49805e ;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.bestselling{
+    text-align: center;
+}
+.bestselling h1{
+    color: #224F34;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bestselling p{
+    color: #224F34;
+}
+.cards1{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-bottom: 200px;
+}
+.cards1img1{
+    background-color:#93B9A2;
+   height: 350px;
+}
+.cards1img2{
+    background-color:#A9D4BA;
+   height: 350px;
+}
+.cards1img3{
+    background-color:#CADCD0;
+   height: 350px;
+}
+.bestselling button{
+    position: relative;
+    left: 5px;
+   bottom: 80px;
+    width: 120px;
+    height: 40px;
+    color:#224F34;
+    font-size:large;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.Ourproducts{
+    text-align: center;
+}
+.Ourproducts h1{
+    color: #224F34;
+}
+#links {
+    display: flex;
+    gap: 40px; 
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+#links a{
+      font-weight: 600;
+      font-size: 14px;
+       letter-spacing: 0.5px;
+        color: #555; 
+}
+.cards2{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 25px;
+    row-gap: 60px;
+    margin: 80px;
+}
+.Designer{
+    text-align: center;
+}
+.Designer h1{
+    color: #224F34;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size:x-large;
+}
+.cards3{
+   display: flex;
+   justify-content: center;
+   gap: 26px;
+   margin-bottom: 200px;
+}
+.cards3img1{
+    background-color:#bababa;
+   height: 350px;
+}
+.cards3img1 h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #373737;
+}
+.cards3img2{
+   
+   height: 350px;
+}
+.cards3img2 h4{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: #373737;
+}
+.cards3img3{
+    
+   height: 350px;
+}
+.cards3img3 h4{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #373737;
+}
+.Feedback{
+    text-align: center;
+}
+.Feedback h1{
+    color: #224F34;
+}
+.cards4{
+    display: flex;
+     justify-content: center;
+   gap: 26px;
+   margin-bottom: 200px;
+}
+.cards4card1{
+    background-color:#FFFFFF ;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.cards4card2{
+    background-color:#C2EFD4 ;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.cards4card3{
+    background-color:#FFFFFF ;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
